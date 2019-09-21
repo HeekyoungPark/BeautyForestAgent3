@@ -60,6 +60,6 @@ namespace BeautyForestAgent
             FormOpinion m = new FormOpinion();
             m.ShowDialog();
         }
-    }
 
+    }
 }

@@ -51,8 +51,6 @@
             this.도움말ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.이프로그램은ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.건의사항ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsbtnColor = new System.Windows.Forms.ToolStripSplitButton();
-            this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.cmsMenu.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -147,9 +145,7 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
-            this.statusMessage,
-            this.tsbtnColor,
-            this.toolStripSplitButton1});
+            this.statusMessage});
             this.statusStrip1.Location = new System.Drawing.Point(0, 378);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(848, 26);
@@ -242,24 +238,6 @@
             this.건의사항ToolStripMenuItem.Text = "건의사항";
             this.건의사항ToolStripMenuItem.Click += new System.EventHandler(this.건의사항ToolStripMenuItem_Click);
             // 
-            // tsbtnColor
-            // 
-            this.tsbtnColor.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbtnColor.Image = ((System.Drawing.Image)(resources.GetObject("tsbtnColor.Image")));
-            this.tsbtnColor.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbtnColor.Name = "tsbtnColor";
-            this.tsbtnColor.Size = new System.Drawing.Size(39, 24);
-            this.tsbtnColor.Text = "toolStripSplitButton1";
-            // 
-            // toolStripSplitButton1
-            // 
-            this.toolStripSplitButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
-            this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripSplitButton1.Name = "toolStripSplitButton1";
-            this.toolStripSplitButton1.Size = new System.Drawing.Size(39, 24);
-            this.toolStripSplitButton1.Text = "tsbtnFont";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -315,8 +293,6 @@
         private System.Windows.Forms.ToolStripMenuItem 이프로그램은ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 건의사항ToolStripMenuItem;
         private System.Windows.Forms.ToolStripStatusLabel statusMessage;
-        private System.Windows.Forms.ToolStripSplitButton tsbtnColor;
-        private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton1;
     }
 }
 
